@@ -1,0 +1,163 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #e3f2fd;
+    font-family:'Roboto Slab', serif;
+    padding: 20px;
+}
+main, footer {
+    display: flex;
+    flex-direction: row;
+    border: solid 2px #0d47a1;
+}
+main {
+    margin-bottom: 0;
+}
+
+footer {
+    margin-top: 5px;
+}
+main aside, footer aside {
+    width: 20%;
+    padding: 15px;
+    border-right: solid 2px #0d47a1;
+    background-color: #bbdefb;
+    color: #0d47a1;
+}
+
+main aside {
+    text-align: center;
+}
+
+main aside nav ol {
+    list-style-type: none;
+    text-align: center;
+}
+
+main aside li, footer article nav ul li {
+    cursor: pointer;
+}
+
+main aside li {
+    margin: 20px;
+}
+
+.columna, footer article {
+    width: 80%;
+    background-color: #bbdefb;
+}
+
+.columna {
+    display: flex;
+    flex-direction: column;
+}
+
+.renglon {
+    display: flex;
+    flex-direction: row;
+    margin:10px;
+}
+
+footer aside {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer article {
+    display: flex;
+    padding: 15px;
+    align-items: center;
+    justify-content: center;
+}
+footer article nav ul {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 30px;
+    list-style-type: none;
+}
+/* --- CAJAS FILAS 1 Y 2 */
+.gradiente, .texto, .imagen-css {
+    width: 25%;
+    height: 180px;
+    margin: 5px;
+    border: solid 2px #0d47a1;
+    color: #0d47a1;
+}
+.gradiente {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.enlaces {
+    width: 30%;
+    color: #0d47a1;
+}
+
+a {
+    text-decoration: none;
+    color: #0d47a1;
+}
+#gradiente1 { background-image: linear-gradient(to bottom, #90caf9, #0d47a1); }
+#gradiente2 { background-image: linear-gradient(to top, #90caf9, #0d47a1); }
+#gradiente3 { background-image: linear-gradient(to right, #90caf9, #0d47a1); }
+#gradiente4 { background-image: linear-gradient(to left, #90caf9, #0d47a1); }
+
+.imagen-css {
+    background-image: url(../img/endgame.webp);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+/* --- TERCERA FILA --- */
+.texto-fila3, .texto-con-imagen, .articulo-imagen-fila3 {
+    height: 220px;
+    margin: 5px;
+    border: solid 2px #0d47a1;
+    background-color: #90caf9;
+    color: #0d47a1;
+}
+.texto-fila3 {
+    width: 30%;
+    padding: 15px;
+}
+.texto-con-imagen {
+    display: flex;
+    width: 40%;
+}
+.texto-con-imagen p {
+    width: 50%;
+    padding: 12px;
+    display: flex;
+    align-items: center;
+}
+.texto-con-imagen .imagen-html, .imagen-html {
+    width: 50%;
+    height: 100%;
+}
+.articulo-imagen-fila3 {
+    width: 30%;
+    overflow: hidden;
+}
+.imagen-html {
+    width: 100%;
+    object-fit: cover;
+    display: block;
+}
+.material-symbols-outlined {
+    color: #0d47a1;
+    font-weight: bolder;
+    font-size: 26px;
+}
+.iconos {
+    margin-bottom: 10px;
+}
+h1, p {
+    font-family: "Gorditas", serif;
+    font-weight: 400;
+    font-style: normal;
+}
