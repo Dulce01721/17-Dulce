@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Playlist - Práctica 2</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Antonio:wght@100..700&family=Gorditas:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/estilo.css"/>
+</head>
+<body class="playlist">
+    <main> 
+        <nav id="menu">
+            <h3>Menú</h3>
+            <ul>
+                <li><a href="home.html">Inicio</a></li>
+                <li><a href="formulario_1.html">Disco</a></li>
+                <li><a href="formulario_2.html">Cantante</a></li>
+                <li><a href="formulario_3.html">Canción</a></li>
+                <li><a href="formulario_4.html">Playlist</a></li>
+            </ul>
+        </nav>
+        <section id="contenido"> 
+            <h1>Playlist</h1>
+            <!-- Como no lleva foto, el formulario abarca todo el ancho -->
+            <form id="formPlaylist">
+                <section class="campo">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre"/>
+                </section>
+                <section class="campo">
+                    <label for="usuario">Usuario:</label>
+                    <select id="usuario">
+                        <option value="">Selecciona un usuario</option>
+                        <option value="Dulce">DulceVM</option>
+                        <option value="Angel">AngelFM</option>
+                        <option value="Alejandro">AlejandroVI</option>
+                        <option value="Maria">MariaRM</option>
+                    </select>
+                </section>
+                <section class="boton">
+                   <button type="button" onclick="guardarRegistro()">Guardar</button>
+                </section>
+            </form>
+        </section> 
+    </main> 
+    <footer>
+         <section class="pie">LDSM401</section>
+         <section class="pie">Dulce Maria Victorino Monjaraz</section>
+    </footer>
+    <script src="funcionalidad.js"></script>
+</body> 
+</html>

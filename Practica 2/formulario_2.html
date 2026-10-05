@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cantante - Práctica 2</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Antonio:wght@100..700&family=Gorditas:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/estilo.css"/>
+</head>
+<body class="cantante">
+    <main> 
+        <nav id="menu">
+            <h3>Menú</h3>
+            <ul>
+                <li><a href="home.html">Inicio</a></li>
+                <li><a href="formulario_1.html">Disco</a></li>
+                <li><a href="formulario_2.html">Cantante</a></li>
+                <li><a href="formulario_3.html">Canción</a></li>
+                <li><a href="formulario_4.html">Playlist</a></li>
+            </ul>
+        </nav>
+        <section id="contenido"> 
+            <h1>Cantante</h1>
+            <section id="formulario">
+                <form id="formCantante">
+                    <section class="campo">
+                        <label for="nombre">Nombre:</label>
+                        <input type="text" id="nombre"/>
+                    </section>
+                    <section class="campo">
+                        <label for="edad">Edad:</label>
+                        <input type="number" id="edad"/>
+                    </section>
+                    <section class="campo">
+                        <label>Género:</label>
+                        <div class="grupo-radios">
+                            <label><input type="radio" name="genero" value="Femenino"/> Femenino</label>
+                            <label><input type="radio" name="genero" value="Masculino"/> Masculino</label>
+                        </div>
+                    </section>
+                    <section class="campo">
+                        <label for="trayectoria">Trayectoria:</label>
+                        <select id="trayectoria">
+                            <option value="">Selecciona los años</option>
+                            <option value="1-5">1 a 5 años</option>
+                            <option value="5-10">5 a 10 años</option>
+                            <option value="10+">Más de 10 años</option>
+                        </select>
+                    </section>
+                    <section class="boton">
+                        <button type="button" onclick="guardarRegistro()">Guardar</button>
+                    </section>
+                </form>
+                <aside class="foto">
+                    <img src="css/grupo.jpg" alt="Imagen cantante"/>
+                </aside>
+            </section>
+        </section> 
+    </main> 
+    <footer>
+         <section class="pie">LDSM401</section>
+         <section class="pie">Dulce Maria Victorino Monjaraz</section>
+    </footer>
+    <script src="funcionalidad.js"></script>
+</body> 
+</html>
