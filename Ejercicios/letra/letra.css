@@ -1,0 +1,38 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #e3f2fd;
+    color: #1f2937;
+    text-align: center;
+    margin-top: 60px;
+}
+
+h1 {
+    color: #0d47a1;
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: #0d47a1;
+    color: #ffffff;
+    padding: 10px 20px;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 6px;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto 20px auto;
+}
+
+button:hover {
+    background-color: #0d47a1;
+}
+
+#resultado {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 28px;
+    color: #0d47a1;
+    font-weight: bold;
+    white-space: pre; 
+    display: inline-block;
+    margin-top: 10px;
+}

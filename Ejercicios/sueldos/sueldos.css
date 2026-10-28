@@ -1,0 +1,30 @@
+body {
+    background-color: #f1f8f5;
+    font-family: Arial, sans-serif;
+    padding: 30px;
+}
+
+h1 {
+    text-align: center;
+    color: #198754;
+}
+
+table.table thead th {
+    background-color: #198754;
+    color: white;
+    text-align: center;
+}
+
+label.form-label {
+    font-weight: bold;
+    color: #333333;
+}
+
+select, input {
+    border: 1px solid #a3d9a5;
+}
+
+#resTotal {
+    background-color: #e8f5e9;
+    font-weight: bold;
+}

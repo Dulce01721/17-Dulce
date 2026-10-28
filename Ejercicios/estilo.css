@@ -1,0 +1,39 @@
+body {
+    background-color: #fff0f5;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+header {
+    background-color: #d81b60;
+    color: white;
+    padding: 15px;
+}
+
+h1 {
+    font-size: 18px;
+}
+
+main {
+    padding: 20px;
+}
+
+h3 {
+    font-size: 16px;
+    color: #333333;
+    margin-bottom: 15px;
+}
+
+.boton {
+    background-color: #e91e63;
+    color: white;
+    display: block;
+    padding: 8px;
+    margin: 10px auto;
+    width: 200px;
+    text-decoration: none;
+}
+
+.boton:hover {
+    background-color: #c2185b;
+}

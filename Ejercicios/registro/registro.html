@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Días</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="registro.css">
+</head>
+<body class="container mt-5">
+
+    <h2>No. Muerte de 7 días</h2>
+
+    <form>
+        <label>Día 1:</label><input type="number" id="d0" class="form-control mb-2"><br>
+        <label>Día 2:</label><input type="number" id="d1" class="form-control mb-2"><br>
+        <label>Día 3:</label><input type="number" id="d2" class="form-control mb-2"><br>
+        <label>Día 4:</label><input type="number" id="d3" class="form-control mb-2"><br>
+        <label>Día 5:</label><input type="number" id="d4" class="form-control mb-2"><br>
+        <label>Día 6:</label><input type="number" id="d5" class="form-control mb-2"><br>
+        <label>Día 7:</label><input type="number" id="d6" class="form-control mb-2"><br>
+
+        <button type="button" class="btn btn-warning mt-3" onclick="calcularEstadisticas()">Calcular</button>
+    </form>
+
+    <p id="impLista" class="mt-4 fw-bold"></p>
+    <p id="impPromedio"></p>
+    <p id="impMax"></p>
+    <p id="impMin"></p>
+
+    <script src="registrro.js"></script>
+</body>
+</html>
